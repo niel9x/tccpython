@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(270deg, #0F0000 0%, #000 100%);
+}
+
+.container {
+  background-color: #1f1f1f;
+  padding: 6px;
+  width: 350px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 darkgrey;
+  border: red 3px solid;
+}
+
+form {
+  position: absolute;
+  margin-top: 80px;
+  transition: .5s;
+  width: 300px;
+  height: 400px;
+}
+
+.img-logo {
+  padding-top: 10px;
+  display: flex;
+  position: relative;
+
+}
+
+.img-logo img {
+  width: auto;
+  height: 50px;
+}
+
+.buttonsForm {
+  margin-top: 40px;
+  position: relative;
+  border-radius: 30px;
+  box-shadow: 0 0 7px 0 rgb(226, 61, 43);
+}
+
+.buttonsForm button {
+  color: white;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  position: relative;
+  padding: 10px 27px;
+  font-weight: bold;
+}
+
+.btnColor {
+  color: white;
+  position: absolute;
+  width: 108px;
+  height: 100%;
+  background-color: #430B0B;
+  border-radius: 30px;
+  transition: .3s;
+}
+
+
+input[type="email"], input[type="password"], input[type="number"], input[type="text"]{
+  border: none;
+  margin-top: 40px;
+  border-radius: 60px;
+  padding: 8px 0 8px 35px;
+  outline: none;
+  width: 100%;
+  background-color: #4d4d4d;
+  color: white;
+}
+
+button[type="submit"] {
+  display: flex;
+  justify-content: center;
+  background: #430B0B;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 15px;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+.divCheck {
+  margin: 10px 0 0 5px;
+  width: 80%;
+  font-size: 13px;
+  color: white;
+}
+
+#signin {
+  left: 25px;
+  margin-top: 125px;
+}
+
+#signup {
+  top: 55px;
+  left: 450px;
+}
+
+i {
+  position: absolute;
+  left: 0;
+  padding: 10px 10px;
+}
+
+.iEmail {
+  top: 40px;
+}
+
+.iPassword {
+  top: 114px;
+}
+
+.iPassword2 {
+  top: 190px;
+}
+
